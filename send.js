@@ -1,5 +1,5 @@
 const smpp = require('smpp');
-const session = new smpp.Session({host: '172.17.9.38', port: 3010});
+const session = new smpp.Session({host: '41.215.168.1', port: 3010});
 
 let isConnected = false
 session.on('connect', () => {
