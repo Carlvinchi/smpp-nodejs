@@ -1,0 +1,17 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send.js",
+  "dependencies": {
+    "iconv-lite": "^0.6.3",
+    "smpp": "^0.6.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node send.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
