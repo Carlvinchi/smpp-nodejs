@@ -5,7 +5,7 @@ let isConnected = false
 session.on('connect', () => {
   isConnected = true;
 
-  session.bind_transmitter({
+  session.bind_transceiver({
       system_id: 'univisiontech',
       password: 'uni@2022',
       interface_version: 1,
